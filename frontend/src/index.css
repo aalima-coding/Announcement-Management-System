@@ -1,0 +1,65 @@
+/* src/index.css */
+
+:root {
+    --bg: #f8fafc;
+    --card: #fff;
+    --muted: #6b7280;
+    --accent: #0b5fff;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0
+}
+
+body {
+    font-family: Inter, system-ui, Segoe UI, Roboto, Helvetica, Arial;
+    background: var(--bg);
+    color: #0f1724
+}
+
+.page {
+    max-width: 1024px;
+    margin: 28px auto;
+    padding: 18px
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px
+}
+
+.subtitle {
+    margin: 4px 0;
+    color: var(--muted)
+}
+
+.btn {
+    background: var(--accent);
+    color: white;
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600
+}
+
+.btn.outline {
+    background: #fff;
+    color: var(--accent);
+    border: 1px solid #e6e9ee
+}
+
+.error {
+    color: #b02a2a;
+    margin: 8px 0
+}
