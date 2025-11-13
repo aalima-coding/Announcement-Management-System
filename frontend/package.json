@@ -17,3 +17,10 @@
         "vite": "^5.0.0"
     }
 }
+
+"homepage": "https://aalima-coding.github.io/Announcement-Management-System",
+"scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+}
